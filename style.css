@@ -88,15 +88,210 @@ p{
 }
 
 .tk{
+    width: 50%;
     display: flex;
     margin: auto;
     text-align: center;
     border: none;
     border-bottom: 1px solid #707070;
     font-size: 25px;
+    background: none;
+    border-radius: 0;
 }
 
 
 .donate-count .donate-btn{
     padding: 50px 0;
+}
+
+
+
+
+
+
+.donation-plan{
+    padding: 100px 0;
+}
+
+h3{
+    font-size: 22px;
+}
+
+.card{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.slot{
+    width: 30%;
+    height: 380px;
+    background-color: #ffeeee;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.slot p{
+    font-size: 16px;
+    text-align: left;
+}
+
+
+
+
+
+
+.contribution{
+    padding: 100px 0;
+}
+
+.top-contribution, .bottom-contribution{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.half-width{
+    width: 40%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.half-width h2{
+    text-align: left;
+}
+
+.half-width p{
+    text-align: left;
+    padding-bottom: 50px;
+    font-size: 16px;
+}
+
+.half-width a{
+    font-size: 16px;
+}
+
+.half-width img{
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    color: #ff5959;
+    border: 2px solid #ff5959;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.about{
+    padding: 100px 0;
+}
+
+.about .slot{
+    background-color: #edf5f6;
+    border:  2px solid #707070;
+    border-top: none;
+    border-left: none;
+    box-shadow: 10px 10px 30px #707070;
+}
+
+.about img{
+    display: flex;
+    margin: 0 auto;
+    border: 2px solid #707070;
+    border-radius: 50%;
+}
+
+.about h3, h5{
+    text-align: center;
+    line-height: 0.4;
+}
+
+.about p{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+.subscribe{
+    padding: 100px;
+}
+
+form{
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff4d6;
+    padding: 50px 0;
+}
+
+input{
+    background-color: #d9d9d9;
+    border: none;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.subscribe button{
+    background-color: #ff5959;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+}
+
+.subscribe button:hover{
+    background-color: #ffffff;
+    color: #ff5959;
+    border: 2px solid #ff5959;
+    font-weight: 600;
+}
+
+
+
+
+
+
+.ending{
+    padding: 20px;
+    background-color: #0b0d17;
+}
+
+.ending h1{
+    text-align: center;
+    font-size: 46px;
+    color: #ff5959;
+    line-height: 0.4;
+    font-family: 'Dancing Script', cursive;
+}
+
+.ending p{
+    font-size: 16px;
+    line-height: 0.4;
 }
